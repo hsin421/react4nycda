@@ -13,9 +13,9 @@ window.loadChatBox = function(msgs) {
   };
   
   fluxChatBoxStore.store = Fluxxor.createStore({
-    initialize: function(options) {
+    initialize: function(msg_list) {
       /* initial state of msgs given by server i.e. @messages injected in the view */
-      this.msgs = options.msgs || [];
+      this.msgs = msg_list.msgs || [];
       
       /* Those chats can be added */
       this.bindActions(fluxChatBoxStore.constants.ADD_MSG, this.onAddMsg);
