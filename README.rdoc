@@ -1,21 +1,28 @@
 == References & Resources
 
 React Home Page
+
 https://facebook.github.io/react/
 
 Flux Home Page
+
 https://facebook.github.io/flux/
 
-Pete Hunt's Talks
+Pete Hunt's Talks: 
+
 Rethining Best Practices https://www.youtube.com/watch?v=x7cQ3mrcKaY
+
 Secret of Virtual DOM https://www.youtube.com/watch?v=-DX3vJiqxm4
 
 3 ways of setting up React on Rails
+
 http://www.openmindedinnovations.com/blogs/3-ways-to-integrate-ruby-on-rails-react-flux
 
 Webpack & React on Rails
+
 https://medium.com/brigade-engineering/setting-up-webpack-with-rails-c62aea149679
 
 React with Rails API
+
 http://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/
 
