@@ -14,10 +14,10 @@ window.loadChatBox = function(msgs) {
   
   fluxChatBoxStore.store = Fluxxor.createStore({
     initialize: function(options) {
-      /* We'll have msgs */
+      /* initial state of msgs given by server i.e. @messages injected in the view */
       this.msgs = options.msgs || [];
       
-      /* Those chats can be added or removed */
+      /* Those chats can be added */
       this.bindActions(fluxChatBoxStore.constants.ADD_MSG, this.onAddMsg);
     },
     getState: function() {
@@ -60,7 +60,7 @@ window.loadChatBox = function(msgs) {
       //     user_id: user_id
       //   },
       //   success: function() {
-      //     // 
+      //     
       //   },
       //   failure: function() {
           
